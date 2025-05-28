@@ -266,7 +266,7 @@ const SingleScrollWebsite = () => {
                     </div> */}
                     <div className="ml-4">
                       <div className="font-medium">student name</div>
-                      <div className="text-sm text-gray-500">Student, Age 16</div>
+                      <div className="text-sm text-gray-500">Shiva Mahli, Age 15</div>
                     </div>
                   </div>
                 </div>
@@ -511,7 +511,7 @@ const SingleScrollWebsite = () => {
                   </div>
                   <div>
                     <div className="font-medium text-blue-300">Email</div>
-                    <a href="mailto:info@eduhope.org" className="text-gray-300 hover:text-white">info@eduhope.org</a>
+                    <a href="kartavyapath7@gmail.com" className="text-gray-300 hover:text-white">kartavyapath7@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -522,7 +522,7 @@ const SingleScrollWebsite = () => {
                   </div>
                   <div>
                     <div className="font-medium text-blue-300">Phone</div>
-                    <a href="tel:+15551234567" className="text-gray-300 hover:text-white">+91-1234567890</a>
+                    <a href="tel:+918588869486" className="text-gray-300 hover:text-white">+918588869486</a>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -535,9 +535,9 @@ const SingleScrollWebsite = () => {
                   <div>
                     <div className="font-medium text-blue-300">Address</div>
                     <div className="text-gray-300">
-                      123 Education Way<br />
-                      Suite 400<br />
-                      Hope City, CA 90210
+                      Jalsa, Road No. 1,<br />
+                      Daladali , <br />
+                      Ranchi, Jharkhand 834005 
                     </div>
                   </div>
                 </div>
