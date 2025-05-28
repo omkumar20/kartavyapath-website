@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // 👉 Replace 'ngo-website' with your actual GitHub repo name
 export default defineConfig({
-  base: '/ngo-website/',
+  base: '/kartavyapath-website/',
   plugins: [react(), tailwindcss()]
 })
