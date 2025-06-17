@@ -121,7 +121,7 @@ return (
             <div className="md:w-1/2 mt-12 md:mt-0">
               <div className="relative w-full overflow-hidden rounded-lg shadow-xl mt-6 md:mt-0">
   <img 
-    src="/photos/image_1.jpg" 
+    src="/photos/image_01.jpg" 
     alt="Children learning in Ranchi center" 
     className="w-full h-auto object-cover rounded-lg"
   />
