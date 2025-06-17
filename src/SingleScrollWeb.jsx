@@ -48,8 +48,8 @@ return (
     <nav className="fixed top-0 w-full bg-white bg-opacity-90 shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         <div className="flex items-center">
-          <img className='h-[60px]' src="./photos/logo1.jpg" alt="logo" />
-          <img className='h-[50px]' src="./photos/logo2.jpg" alt="logo text" />
+          <img className='h-[60px]' src="/photos/logo1.jpg" alt="logo" />
+          <img className='h-[50px]' src="/photos/logo2.jpg" alt="logo text" />
         </div>
 
         <div className="hidden md:flex space-x-4">
@@ -121,7 +121,7 @@ return (
             <div className="md:w-1/2 mt-12 md:mt-0">
               <div className="relative w-full overflow-hidden rounded-lg shadow-xl mt-6 md:mt-0">
   <img 
-    src="./photos/image_1.jpg" 
+    src="/photos/image_1.jpg" 
     alt="Children learning in Ranchi center" 
     className="w-full h-auto object-cover rounded-lg"
   />
@@ -159,7 +159,7 @@ return (
             <div className="md:w-1/2 mb-12 md:mb-0">
   <div className="relative w-full overflow-hidden rounded-lg shadow-xl">
     <img 
-      src="./photos/image_2.jpg" 
+      src="/photos/image_2.jpg" 
       alt="Founder Mritunjay Sharma with students" 
       className="w-full h-auto object-cover rounded-lg"
     />
@@ -200,7 +200,7 @@ return (
             {/* Program 1 */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="h-48 bg-gray-300">
-                <img src="./photos/image_3.jpg" alt="After-School Learning Program" className="w-full h-full object-cover" />
+                <img src="/photos/image_3.jpg" alt="After-School Learning Program" className="w-full h-full object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">After-School Learning</h3>
@@ -219,7 +219,7 @@ return (
             {/* Program 2 */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="h-48 bg-gray-300">
-                <img src="./photos/image_4.jpg" alt="Digital Literacy Program" className="w-full h-full object-cover" />
+                <img src="/photos/image_4.jpg" alt="Digital Literacy Program" className="w-full h-full object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">Digital Literacy</h3>
@@ -238,7 +238,7 @@ return (
             {/* Program 3 */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="h-48 bg-gray-300">
-                <img src="./photos/image_5.jpg" alt="Life Skills Program" className="w-full h-full object-cover" />
+                <img src="/photos/image_5.jpg" alt="Life Skills Program" className="w-full h-full object-cover" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">Life Skills & Arts</h3>
@@ -310,7 +310,7 @@ return (
               <h3 className="text-2xl font-semibold mb-4">Center Spotlight</h3>
               <div className="bg-white rounded-lg overflow-hidden shadow-lg">
                 <div className="h-64 bg-gray-300">
-                  <img src="./photos/image_6.jpg" alt="Ratu Road Center" className="w-full h-full object-cover" />
+                  <img src="/photos/image_6.jpg" alt="Ratu Road Center" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6 text-gray-700">
                   <h4 className="text-xl font-semibold mb-2">Daladili Center</h4>
@@ -360,32 +360,32 @@ return (
             {
               name: "Mritunjay Sharma",
               desc: "Founder of Kartavya Path, author, and entrepreneur behind Biofie — empowering youth through knowledge and opportunity.",
-              img: "./photos/vol1.jpg",
+              img: "/photos/vol1.jpg",
             },
             {
               name: "Samtosh Kumar",
               desc: "A seasoned HR professional dedicated to fostering inclusive growth and leading grassroots empowerment workshops for women.",
-              img: "./photos/vol2.jpg",
+              img: "/photos/vol2.jpg",
             },
             {
               name: "Prateek Kunwar",
               desc: "An IT professional passionate about digital literacy, teaching coding and tech skills to underprivileged children.",
-              img: "./photos/vol3.jpg",
+              img: "/photos/vol3.jpg",
             },
             {
               name: "Gautam Ganeshan",
               desc: "A scientist committed to using innovation for social good — spearheading our food and health drives with precision and care.",
-              img: "./photos/vol4.jpg",
+              img: "/photos/vol4.jpg",
             },
             {
               name: "Sulochana Sharma",
               desc: "A devoted teacher who ensures seamless execution of events and brings structure to our mission with hands-on coordination.",
-              img: "./photos/vol5.jpg",
+              img: "/photos/vol5.jpg",
             },
             {
               name: "Abhinav Sinha",
               desc: "A businessman and active humanitarian — from youth counseling to blood donation drives, he brings passion to every cause.",
-              img: "./photos/vol6.jpg",
+              img: "/photos/vol6.jpg",
             },
           ].map((vol, index) => (
             <div
